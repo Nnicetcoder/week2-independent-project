@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find your akan name</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script  src="script.js" type="text/javascript" ></script>
+</head>
+<body>
+	<div class="container">
+		
+		<h2 class="form-header">Fill the form</h2>
+		<div class="row">
+			
+			<input class="input-name" type="text" name="name" placeholder="Name">
+		</div>
+		<div class="row">
+			
+			<input class="input-date" id="input-date"type="date" data-provide="date-picker" name="date" placeholder="birth date">
+		</div>
+		<div class="form-check">
+			<label class="form-check label" id="form-check gender" type="radio">Male</label>
+			<input class="form-check input"type="radio" name="optradio">
+		</div>
+		<div class="form-check">
+			<label class="form-check label" id="form-check gender">Female</label>
+			<input class="form-check input" type="radio" name="optradio">
+		</div>
+		<div class="button">
+			<button class="btn btn-success" type="button" onclick="findName()" value="submit">Submit</button>
+		</div>
+	</div>
+</body>
+</html>
